@@ -5,5 +5,5 @@
 #  puts "#{new_nums} and #{number}"
 #end
 
-a = [ "a", "b", "c" ]
-a.each {|x| print x, " -- " }
+a = [ 1, 2, 3 ]
+a.each {|x| print (x^2), " -- " }
