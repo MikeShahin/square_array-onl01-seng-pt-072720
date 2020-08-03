@@ -9,7 +9,7 @@ def square_array(array)
     #puts new_num
   end  
   #new_array = array.each {|x| x*4}
- # puts new_nums
+ puts new_nums
 end
 
 square_array([1, 2, 3])
