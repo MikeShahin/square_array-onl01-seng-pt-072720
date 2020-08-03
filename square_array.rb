@@ -13,4 +13,4 @@ def square_array(array)
 end
 
 square_array([1, 2, 3])
-puts new_num
+puts new_nums
