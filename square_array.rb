@@ -4,7 +4,7 @@
 #  puts "#{new_nums} and #{number}"
 
 def square_array(array)
-array.each {|x| puts (x*x), " -- " }
+array.each {|x| puts (x*x)}
 end
 
 square_array([1, 2, 3])
