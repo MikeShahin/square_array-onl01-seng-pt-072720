@@ -1,6 +1,6 @@
 
 #numbers = [1, 2, 3]
-#new_nums = []
+new_nums = []
 #  puts "#{new_nums} and #{number}"
 new_array = []
 def square_array(array)
@@ -13,3 +13,4 @@ def square_array(array)
 end
 
 square_array([1, 2, 3])
+puts new_num
