@@ -4,8 +4,11 @@
 #  puts "#{new_nums} and #{number}"
 new_array = []
 def square_array(array)
-new_array = array.each {|x| x*4}
-puts new_array
+  array.each do |x|
+    puts x^2
+  end  
+  #new_array = array.each {|x| x*4}
+  #puts new_array
 end
 
 square_array([1, 2, 3])
