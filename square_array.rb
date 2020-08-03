@@ -6,4 +6,4 @@
 #end
 
 a = [ 1, 2, 3 ]
-a.each {|x| print (x^2), " -- " }
+a.each {|x| print (x*2), " -- " }
