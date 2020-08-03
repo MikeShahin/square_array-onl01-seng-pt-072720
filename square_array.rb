@@ -5,7 +5,7 @@
 new_array = []
 def square_array(array)
   array.each do |x|
-    puts x*2
+    puts x*x
   end  
   #new_array = array.each {|x| x*4}
   #puts new_array
